@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import About from "./pages/About";
+import Home from "./pages/home";
+import About from "./pages/about";
 import Contact from "./pages/Contact";
 import { useTranslation } from "react-i18next";
 import Navbar from "./components/Navbar";
